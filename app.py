@@ -114,7 +114,8 @@ def extract_valid_dates_from_file(path: str, encoding: str = "utf-8") -> List[st
     return extract_valid_dates(content)
 if __name__ == "__main__":
     #File Path
-    file_path = r"C:\Users\TanmayGelli\Downloads\messy.txt"
+    file_path = r"path_to_file.txt"
     dates = extract_valid_dates_from_file(file_path)
     for d in dates:
+
         print(d)
