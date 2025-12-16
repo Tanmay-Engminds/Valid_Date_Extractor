@@ -17,7 +17,3 @@ This tool recognizes and extracts the following date formats:
    Example: `16/10/2023`
 3. **Long Date Format** (`Month DD, YYYY`):  
    Example: `October 16, 2023` or `Oct 16, 2023`
-
-
-   ```bash
-   git clone https://github.com/yourusername/date-extraction-tool.git
